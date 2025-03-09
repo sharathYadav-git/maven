@@ -12,6 +12,7 @@ public class ChatsModule {
 	 driver.manage().window().maximize();
 	 driver.get("https://www.facebook.com/");
 	 System.out.println(driver.getTitle());
+	 Reporter.log("Testing",true);
 		
 		
 		
